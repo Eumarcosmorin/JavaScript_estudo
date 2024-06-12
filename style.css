@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+/* MENU */
+
+#menu{
+    
+    background-color: rgba(0, 0, 0, 0.264);
+    color: aliceblue;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow:rgba(0, 0, 0, 0.435) 1px 1px 1px 1px;
+
+}
+
+#menu>span{
+    
+    margin-left: 50px;
+    border-bottom: solid black 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+/* MENU */
+
+/* MAIN */
+
+/* SECTION 01 */
+
+section#s01>img{
+    margin: 60px;
+    width: 250px;
+    display: block;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.633) 1px 1px 1px 1px;
+
+}
+
+/* SECTION 01 */
+
+/* SECTION 02 */
+
+section#s02>p{
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-top: 20px;
+
+}
+
+/* SECTION 02 */
+
+/* SECTION 03 */
+
+section#s03>#caixa{
+
+    display: flex;
+    margin: auto;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.05);
+
+}
+
+section#s03>#caixa>img{
+
+
+    width: 130px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.422) 1px 1px 1px 1px ;
+
+
+}
+
+/* SECTION 03 */
+
+/* SECTION 04 */
+
+section#s04>#caixa-texto{
+
+    display: flex;
+    border: black solid 1px;
+    border-radius: 30px;
+    margin: 10px;
+
+}
+
+section#s04>#caixa-texto>p{ 
+
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    margin-left: 10px;
+
+}
+
+
+/* SECTION 04 */
+
+/* SECTION 05 */
+
+section#s05>img{ 
+
+    width: 400px;
+    display: block;
+    margin: auto;
+
+}
+
+/* SECTION 05 */
+
+/* FOOTER */
+
+#rodape{
+
+    margin: 10px;
+
+}
+
+#rodape>span{ 
+
+    margin-left: 58px;
+
+}
+
+/* FOOTER */
+
+/* MAIN */
