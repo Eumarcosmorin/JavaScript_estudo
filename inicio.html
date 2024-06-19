@@ -82,9 +82,12 @@
         window.confirm('Assim que possivel me segue no Facebook, ok?')
         var facebook = window.prompt('Já em fala seu @ que eu sigo de volta!')
         var nome = window.prompt("certo, e qual seu nome ?")
-        window.alert("Certinho " + nome + " Já mandei solicitação pra você!")
-
-
+        window.alert("Certinho " + nome + ", Já mandei solicitação pra você!")
+        var numero = Number(window.prompt("Me fala seu salario..."))
+        var divida = Number(window.prompt("me fala um valor de uma divida sua"))
+        var total = numero - divida
+        total.toFixed(2)
+        window.alert( `Te sobre um total de ${total.toLocaleString('pt-BR',{style:'currency',currency:'BRL'})} pra você gastar hehehe` )
     </script>
 </body>
 </html>
