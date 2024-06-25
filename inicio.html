@@ -78,16 +78,31 @@
 
     <script> //Javascript
 
-        window.alert('Seja bem vindo(a) a minha pagina')
-        window.confirm('Assim que possivel me segue no Facebook, ok?')
-        var facebook = window.prompt('Já em fala seu @ que eu sigo de volta!')
-        var nome = window.prompt("certo, e qual seu nome ?")
-        window.alert("Certinho " + nome + ", Já mandei solicitação pra você!")
-        var numero = Number(window.prompt("Me fala seu salario..."))
-        var divida = Number(window.prompt("me fala um valor de uma divida sua"))
-        var total = numero - divida
+        window.alert('Seja bem vindo(a) a minha pagina') /*mostra uma mensagem na tela*/
+
+        window.confirm('Assim que possivel me segue no Facebook, ok?') /*Pede uma confirmação */
+
+        var facebook = window.prompt('Já em fala seu @ que eu sigo de volta!') /*Faz uma pergunta onde tem um campo de resposta*/
+        var nome = window.prompt("certo, e qual seu nome ?") /* outra pergunta */
+
+        window.alert("Certinho " + nome + ", Já mandei solicitação pra você!") /*mais uma kkk, porem eu add uma variavel que recebeu um valor da pergunta de cima*/
+
+        var numero = Number(window.prompt("Me fala seu salario...")) /* aqui eu marco uma varial pra receber o valor digitado na pergunta*/
+
+        var divida = Number(window.prompt("me fala um valor de uma divida sua")) /* aqui eu marco uma varial pra receber o valor digitado na pergunta*/
+
+        var total = numero - divida /*Aqui eu faço a conta usando os dois valores identificados dentro da variavel */
+
         total.toFixed(2)
-        window.alert( `Te sobre um total de ${total.toLocaleString('pt-BR',{style:'currency',currency:'BRL'})} pra você gastar hehehe` )
+        window.alert( `Te sobre um total de ${total.toLocaleString('pt-BR',{style:'currency',currency:'BRL'})} pra você gastar hehehe` ) /*aqui eu uso um tratamento muiro doido kkkk dentro de ${}, porem é só colocar a variavel dentro que ela aparece*/
+
+        var p1 = window.document.getElementsByTagName('p')[0] /* dei o valor da teg 0 "primeria" pra variavel p1*/
+        window.document.write(p1.innerText) /* dei o direcionamento para que ele escreva o TEXTO da variavel "p1" */
+        p1.style.color = "blue" /*Mudei a cor da variavel "montrei o caminho que ela tem que seguir */
+
+        var corpo = window.document.body /*Atribui o valor do body a varialvel corpo*/
+        corpo.style.background = "red" /* com base no caminho feito eu mudei a cor da varial*/
+        
     </script>
 </body>
 </html>
