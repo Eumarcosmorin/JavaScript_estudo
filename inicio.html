@@ -74,6 +74,14 @@
             <span>Site.com.br</span>
 
         </div>
+
+        <div id ="opa">
+            <h1>
+            
+            <p>TI AMU</p>
+
+            </h1>
+        </div>
     </footer>
 
     <script> //Javascript
@@ -102,6 +110,25 @@
 
         var corpo = window.document.body /*Atribui o valor do body a varialvel corpo*/
         corpo.style.background = "red" /* com base no caminho feito eu mudei a cor da varial*/
+
+
+        /*-------------------------------------------------------------------------------------------*/
+         
+        var pp = window.document.getElementsByClassName('opa') /*teg pra selecionar por CLASS*/
+        pp.style.color = "yellow"
+        window.document.write(pp.innerText)
+
+        var ppp = window.document.getElementById('opa') /* teg que seleciona por ID*/
+        ppp.style.color = "blue"
+        window.document.write(ppp.innerText)
+
+        var pppp = window.document.getElementsByTagName('p')[3] /* teg que seleciona por NOME*/
+        pppp.style.color = "green"
+        window.document.write(pppp.innerText)
+
+        var ppppp = window.document.querySelector('div#opa')/* teg que seleciona por ESCRITA*/
+        ppppp.style.color = 'pink'
+        window.document.write (ppppp.innerText)
         
     </script>
 </body>
